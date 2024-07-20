@@ -24,7 +24,7 @@ cd \<your-repo-directory\>
 _only a sample of the dir structure showing the Main docker file locations_
 
 
-4.  Build and start containers:
+**4.  Build and start containers:**
 - Start up Docker Desktop
 - _docker is available here: https://www.docker.com/_
 - inside your favourite terminal navigate to 
