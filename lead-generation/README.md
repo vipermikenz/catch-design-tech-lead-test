@@ -21,6 +21,8 @@ cd \<your-repo-directory\>
 
 └── docker-compose.yml
 
+_only a sample of the dir structure showing the Main docker file locations_
+
 
 4.  Build and start containers:
 - Start up Docker Desktop
@@ -37,7 +39,6 @@ cd \<your-repo-directory\>
 3.  Test the lead form:
     -   Fill out all fields in the form
     -   Submit and check browser console (F12) for logs
-    -   Verify data in phpMyAdmin
 4.  View backend logs:
 - sh _(in favourite terminal)_
 - docker logs \<leadgenerationbackend-container-id\>
