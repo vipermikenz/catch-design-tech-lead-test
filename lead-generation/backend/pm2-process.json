@@ -1,0 +1,13 @@
+{
+    "script": "./app/app.js",
+    "watch": true,
+    "ignore_watch": [
+        "node_modules",
+        ".git",
+        "Dockerfile",
+        "docker-compose.yml",
+        "pm2-process.json"
+    ],
+    "name": "leadGeneration",
+    "time": true
+}
