@@ -2,13 +2,13 @@
 
 **Setup and Run**
 
-**1. Clone the repo and navigate to the directory: **
+**1. Clone the repo and navigate to the directory:**
 
 sh _(in favourite terminal)_
 git clone \<your-repo-url\>
 cd \<your-repo-directory\>
 
-2.  Ensure your directory structure matches:
+**2.  Ensure your directory structure matches:**
 \<your_base_dir\> \\lead-generation\\
 
 ├── backend
