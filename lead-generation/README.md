@@ -2,7 +2,7 @@
 
 **Setup and Run**
 
-1.  Clone the repo and navigate to the directory:
+**1. Clone the repo and navigate to the directory: **
 
 sh _(in favourite terminal)_
 git clone \<your-repo-url\>
@@ -24,7 +24,7 @@ cd \<your-repo-directory\>
 _only a sample of the dir structure showing the Main docker file locations_
 
 
-**4.  Build and start containers:**
+**3.  Build and start containers:**
 - Start up Docker Desktop
 - _docker is available here: https://www.docker.com/_
 - inside your favourite terminal navigate to 
@@ -33,23 +33,23 @@ _only a sample of the dir structure showing the Main docker file locations_
 - docker-compose up \--build
 - in the terminal if you <ctrl><c> the docker should stop or you can stop it in the desktop app.
 
-**Access and Test**
-1.  Frontend: <http://localhost:8080>
-2.  phpMyAdmin: <http://localhost:8081>
-3.  Test the lead form:
-    -   Fill out all fields in the form
-    -   Submit and check browser console (F12) for logs
-4.  View backend logs:
+**4. Access and Test**
+- Frontend: <http://localhost:8080>
+- phpMyAdmin: <http://localhost:8081>
+- Test the lead form:
+    --   Fill out all fields in the form
+    --   Submit and check browser console (F12) for logs
+**5. View backend logs:**
 - sh _(in favourite terminal)_
 - docker logs \<leadgenerationbackend-container-id\>
 
-5. Run a simple performance test with jest
+**6. Run a simple performance test with jest**
    - cd \\<your_base_dir\> \\lead-generation\\backend\
    - npm install
    - npm test
    - _you should see some output and test results_
 
-**Cleanup**
+**7. Cleanup _optional_**
 1.  Stop and remove containers:
 - sh _(in favourite terminal)_
 - docker-compose down
@@ -65,8 +65,3 @@ _only a sample of the dir structure showing the Main docker file locations_
 -   Check docker-compose.yml for service configurations
 -   Frontend Dockerfile uses Node 22 and runs on port 8080
 -   Backend Dockerfile uses Node 22 with additional build tools
-
-**Next Steps**
-
-1.  Implement MySQL writes for form submissions
-2.  Set up OAuth for Node.js backend requests
